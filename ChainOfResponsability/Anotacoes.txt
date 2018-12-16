@@ -1,0 +1,13 @@
+﻿As classes e objetos que participam desse padrão são:
+
+*** Manipulador
+  Define uma interface para minuplar as soicitações
+  (opcional) implementa o link sucessor
+
+*** ConcreteHandler:
+  Lida com pedidos que é responsável por.
+  Pode acessar seu sucessor.
+  Se o Concretehandler puder manipular o pedido, ele faz isso; caso contrário, encaminha a solicitação ao seu sucessor.
+
+*** Cliente
+  Inicia a solicitação para um objeto ConcreteHandler na cadeia.

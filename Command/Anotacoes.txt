@@ -1,0 +1,11 @@
+﻿Encapsule uma solicitação como um objeto, permitindo assim que você faça
+a parametrização de clientes com diferentes solicitações, enfileire ou registre solicitações, e
+dê suporte a operações que podem ser desfeitas.
+
+As classe e objetos que participam desse padrão são:
+ - Comando => Declara uma interface para executar uma operação.
+ - ConcreteCommand => Define uma ligação entre um objeto Receiver e uma ação
+				   => Implementa Execute invocado a (s) operação (ões) correspondente (s) no receptor.
+ - Cliente => Cria um objeto ConcreteCommand e define seu receptor.
+ - Invocar => Pede o comando para realizar o pedido.
+ - Receptor => Sabe como executar as operações associadas a execução da solicitação.

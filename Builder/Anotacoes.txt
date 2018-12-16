@@ -1,0 +1,21 @@
+﻿Builder
+
+	Separa a construção de um objeto complxo de sua representação para que o mesmo processo de construção possa criar diferentes representações.
+
+CONSTRUCTOR
+	Especifica uma interface abstrata para criar partes de um objeto Product.
+CONCRECTEBUILDER
+	Constrói e monta partes do produto implementando a interface do Construtor
+	Define e acompanha a representação que cria
+	Fornece uma interface para recuperar o produto
+DIRETOR
+	Constrói um objeto usando a interface do construtor
+PRODUTO
+	Representa o objeto complexo em construção. O ConcreteBuilder constrói a representação interna do produto e define o processo pelo qual é montado.
+	Inclui classes que definem as partes constituintes, incluindo a interfaces para montagem das peças no resultado final.
+
+VANTAGENS DO BUILDER
+	Permite variar a representação interna de um produto;
+	Encapsula o código entre construção e representação;
+	Provê controle dutante o processo de construção;
+	Como desvantagem, requer criar um concrete builder especifico para cada instância diferente do produto;
