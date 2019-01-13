@@ -36,7 +36,7 @@ namespace Builder
             Console.WriteLine("Tela: {0}", celularBuilder.Celular.Tela);
             Console.WriteLine("Camera: {0}", celularBuilder.Celular.Camera);
             Console.WriteLine("Bateria: {0}", celularBuilder.Celular.Bateria);
-
+            //
         }
     }
 }
