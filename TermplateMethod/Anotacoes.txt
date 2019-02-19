@@ -1,0 +1,16 @@
+﻿TEMPLATE METHOD - Design Pattern Comportamental
+
+Adia as etapas exatas de um algoritimo para uma subclasse.
+
+Defina o esqueleto de um algoritimo em uma operação adiando algumas etapas para subclasses. Template Method permite que as subclasses redefinam certas etapas de um 
+algoritimo sem alterar a estrutura do algoritimo.
+
+As classes e objetos que participam desse padrção são:
+
+AbstractClass:
+	-Define as operações primitivas abstratas que subclasses concretas definem para implementar etapas de um algoritimo
+	-Implementa um método de modelo que define o esqueleto de um algoritimo. O método de modelo chama operações primitivas,
+	 bem como operações definidads no AbstractClass ou de outros objetos.
+
+ConcreteClass:
+	-Implementa as operações primitivas de executar etapas específicas da subclasse de algoritimo.
