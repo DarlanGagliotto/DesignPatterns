@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleTon", "SingleTon\Sing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{6DA3AFE1-EBF2-4402-BB13-028BD2A0E11E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{4D7BEBD5-0D91-4220-B8BB-282ACCE83A15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{6DA3AFE1-EBF2-4402-BB13-028BD2A0E11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DA3AFE1-EBF2-4402-BB13-028BD2A0E11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DA3AFE1-EBF2-4402-BB13-028BD2A0E11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7BEBD5-0D91-4220-B8BB-282ACCE83A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7BEBD5-0D91-4220-B8BB-282ACCE83A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7BEBD5-0D91-4220-B8BB-282ACCE83A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7BEBD5-0D91-4220-B8BB-282ACCE83A15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
