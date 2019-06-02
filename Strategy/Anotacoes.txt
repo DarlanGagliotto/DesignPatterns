@@ -1,0 +1,14 @@
+﻿DEFINIÇÃO
+	Defina uma família de algoritimos, encapsule cada um deles e torne-os intercambiáveis. 
+	A estratégia permite que o algoritimo varie independentemente dos clientes que o usam.
+
+PARTICIPANTES DO PATTNER
+	Estratégia:
+		Declara uma interface comum a todos os algoritimos suportados. 
+		Contexto usa essa interface para chamar o algoritimo definido por um ConcreteStrategy.
+	ConcreteStrategy:
+		Implementa o algoritimo usando a interface Strategy.
+	Contexto:
+		Está configurado com um objeto ConcreteStrategy.
+		Mantém uma referência a um objeto Strategy.
+		Pode definir uma interface que permita a Strategy acessar seus dados.
